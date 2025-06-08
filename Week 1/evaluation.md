@@ -40,10 +40,10 @@ Curiosity-14 used three general knowledge HuggingFace datasets, and Curiosity-15
 
 Curiosity-14 did not have a fine-tuning process, Curiosity-15 relied on a 5MB json file for fine-tuning, leading to more "focused" responses, but it likely overfit on poor, noisy, and small amounts of data, losing coherence. For Curiosity-16, a 30MB+ json file that uses prompts and responses from a high-quality data source (such as the Stanford Alpaca Instruction Sets) would likely produce better results, stave off overfitting, and keep coherence.
 
-# Repetition Penalty:
+## Repetition Penalty:
 
 For Curiosity-16, it would be wise to include a small repetition penalty to avoid the loops that Curiosity-14 and Curiosity-15 tend to fall back to.
 
-# Model Choice:
+## Model Choice:
 
 Curiosity-14 and Curiosity-16 were developed using GPT-2 Technologies (GPT-2-Small (124M Parameters) + GPT-2Tokenizer) using a Quad Core Intel i3 2018 Mac Mini with 8GB of RAM (x86). For Curiosity-16 to keeps its focus on being developed using consumer-grade hardware, Curiosity-16 should be developed via an M4 Mac Mini (16GB unified Memory) (ARM), and use a larger GPT-2 Model, such as GPT-2-Medium (355M Parameters) and AutoTokenizer (newer than GPT-2 Tokenizer, has a larger Context Window, which is better for short term memory retrieval).
