@@ -1,0 +1,29 @@
+Week 1 -- C14 vs C15 Evaluation + Documented Deliverable 1
+
+Mon - Sun - Hugging Face Documentation, Assessing model peformance between Curiosity-14 (EEP2024 Model) vs Curiosity-15 (2024-2025 Post EEP Model), Beginning Research on Curiosity-16
+
+
+
+---
+
+--- C14, C15 Evalution Sheet ---
+-- The First Deliverable of the UC EEP For Summer 2025 for Week 1 is an evaluation sheet that assesses and benchmarks the responses between Curiosity-14 and Curiosity-15. 
+It also includes a section for where Curiosity-16 can take the next steps.
+
+
+--- Trouble I ran into:
+--- C14 and C15 were built to run on x86 architecture, running them on my M4 (ARM) Mac Mini required learning how to include 'MPS' into my codebase in my IDE.
+--- C14 and C15 both provided "terrible" responses, difficult to grade and assess.
+
+
+--- Additional Context:
+--- C14 and C15 were both trained, then C15 was fine-tuned on an Intel i3 Mac Mini 2018 with 8GB RAM. For C16, I will use an M4 Mac Mini with 16GB unified memory. 
+The M-series processors have cores built for Machine Learning Acceleration, and include access to MLX, which is a framework for running models, with better performance than PyTorch.
+
+
+--- What's Next:
+--- Focus on research and building Curiosity-16. Determining using GPT-2-Small vs GPT-2-Medium and GPT2Tokenizer vs AutoTokenzier and other integral elements. (Learning Rate adjustment?)
+
+
+
+
