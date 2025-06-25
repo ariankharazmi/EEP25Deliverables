@@ -1,0 +1,28 @@
+Week 2 -- Curiosity-15 Configured for ARM Architectures (moving from x86 to Apple Silicon)
+
+Mon - Sun - HuggingFace Documentation, Databricks Documentation (starting work on AI Agent research post-Curiosity-16), researching Curiosity-16 work, diving deeper into NLP via HuggingFace courses and other resources, Meeting with EEP Mentor soon!
+
+
+
+---
+
+--- Curiosity-15 LLM Scripts (ARM) ---
+-- The Deliverable of the UC EEP For Summer 2025 for Week 2 is an ARM-based version of Curiosity-15 LLM (PyTorch-based LLM utilizing GPT-2 that was built on beyond Curiosity-14 from EEP Summer 2024 Research Session)
+
+
+--- Trouble I ran into:
+--- The scripts for Curiosity-14 and 15 were originally developed on my Intel Mac Mini. While that was subsequent for use with smaller GPT-2 models last year, it was not sufficient for larger models. 
+I had to buy a newer Apple Silicon (ARM-based) Mac to handle larger and more complex models. 
+--- This also meant that the scripts were x86-based, which would not work. I had to do research on how to run x86 programs for AI development (such as OpenWebUI) and how to run x86 scripts. 
+Running virtual environments and having an extra small snippet of code to tell the program/interpreter to search for an MPS (Metal) (aka Apple Silicon) based CPU helped make the scripts run, whereas previously it wouldn't work
+and give an error stating that the program was configured for x86 environments.
+
+--- Additional Context:
+--- C14 and C15 were both trained, then C15 was fine-tuned on an Intel i3 Mac Mini 2018 with 8GB RAM. For C16, I will use an M4 Mac Mini with 16GB unified memory. 
+The M-series processors have cores built for Machine Learning Acceleration, and include access to MLX, which is a framework for running models, with better performance than PyTorch.
+There has been some issues with transferring everything over, but largely it has been successful. Curiosity-16 will be ARM based (via direct IDE pipeline). I also hope to upload Curiosity-16 to public 
+repositories and services such as Ollama and HuggingFace.
+
+
+--- What's Next:
+--- Meeting with co-op advisor, finalizing 5+ more datasets for Curiosity-16, more research on Trainers (broader NLP topics), more research on PyTorch-based LLM Code, converting publicly available Stanford Alpaca data into usable JSONL format, training and fine-tuning Curiosity-16
