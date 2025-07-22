@@ -1,0 +1,24 @@
+Week 4 -- Curiosity-16 WIP Phase I Fine-tuning script & Interact Script (Transfer learning (Two phase fine-tuning on pre-trained model))
+
+Mon - Sun - HuggingFace Documentation, HuggingFace Transformers Course, HuggingFace LLM Course, researching Curiosity-16 work, diving deeper into NLP via HuggingFace courses and other resources, continued rewrite.
+
+
+
+---
+
+--- Curiosity-16 WIP Scripts for Phase I Fine-tuning Script ---
+-- The Deliverable of the UC EEP For Summer 2025 for Week 4 is a rewritten WIP script for Curiosity-16 LLM (PyTorch-based LLM utilizing GPT-2 that was built on beyond Curiosity-14 from EEP Summer 2024 Research Session)
+
+
+--- Trouble I ran into:
+--- I didn't run into too much trouble. The biggest issue is making sure that Curiosity-16 ends up being a much better model from Curiosity-14 and Curiosity-15. The more avdnaced concepts
+I needed help with last year, I am learning about now (whereas last year was more "novel" and "rudimentary". For Curiosity-16, these scripts are WIP, but my aim is to have every script written 100% by me! Making sure I understand each and every
+concept that I needed help with or didn't understand last year is imperative for my learning.
+
+--- Additional Context:
+--- Two-phase transfer learning for Curiosity-16 is coming soon. I need to make *even* more progress on the HuggingFace courses, but feel very good about my progress. I think Curiosity-16 will run just fine on my M4 Mac Mini, 
+although I might need to look into LoRA adapters in order to save system memory. 16GB unified memory might serve as a bottleneck or I might run into a OOM error during the process. Time will tell. Adjusting gradient batches and learning rates will assist here.
+
+
+--- What's Next:
+--- Finalizing Interact, Fine-tuning scripts (Phase I and Phase II) for Transfer Learning. (Curiosity-16), finding seven more datasets for Curiosity-16 Phase I fine-tune script.
