@@ -1,4 +1,4 @@
-Week 6 -- Curiosity-16 WIP Phase I Fine-tuning script & Interact Script (Transfer learning (Two phase fine-tuning on pre-trained model))
+Week 6 -- Curiosity-16 Phase I Fine-tuning script & Interact Script (Transfer learning (Two phase fine-tuning on pre-trained model))
 
 Mon - Sun - HuggingFace Documentation, HuggingFace Transformers Course, HuggingFace LLM Course, researching Curiosity-16 work, "The Annotated GPT-2", diving deeper into NLP via HuggingFace courses and other resources, continued rewrite.
 
@@ -7,7 +7,7 @@ Mon - Sun - HuggingFace Documentation, HuggingFace Transformers Course, HuggingF
 ---
 
 --- Curiosity-16 WIP Scripts for Phase I Fine-tuning Script ---
--- The Deliverable of the UC EEP For Summer 2025 for Week 6 is a (further) rewritten WIP script for Curiosity-16 LLM (PyTorch-based LLM utilizing GPT-2 that was built on beyond Curiosity-14 from EEP Summer 2024 Research Session)
+-- The Deliverable of the UC EEP For Summer 2025 for Week 6 is a completed Phase I script for Curiosity-16 LLM (PyTorch-based LLM utilizing GPT-2 that was built on beyond Curiosity-14 from EEP Summer 2024 Research Session)
 
 
 --- Trouble I ran into:
