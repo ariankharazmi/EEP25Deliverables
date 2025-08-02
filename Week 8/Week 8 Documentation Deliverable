@@ -1,0 +1,23 @@
+Week 8 -- Curiosity-16 Phase II Fine-tuning script (Transfer learning (Two phase fine-tuning on pre-trained model))
+
+Mon - Sun - HuggingFace Documentation, HuggingFace Transformers Course, HuggingFace LLM Course, researching Curiosity-16 work, "The Annotated GPT-2", diving deeper into NLP via HuggingFace courses and other resources, continued rewrite.
+
+
+
+---
+
+--- Curiosity-16 WIP Scripts for Phase I Fine-tuning Script ---
+-- The Deliverable of the UC EEP For Summer 2025 for Week 8 is a completed script for Curiosity-16 LLM (PyTorch-based LLM utilizing GPT-2 that was built on beyond Curiosity-14 from EEP Summer 2024 Research Session)
+
+
+--- Trouble I ran into:
+--- Rewrote preprocess function, carried over from Phase I.
+--- Found new Phase II Chain-of-Thought & Stanford Alpaca Model Datasets for maximizing model performance, reducing hallucination, and increasing capabilities.
+
+
+--- Additional Context:
+--- 
+
+
+--- What's Next:
+--- Uploading to Ollama
