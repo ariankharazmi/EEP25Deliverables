@@ -1,0 +1,23 @@
+Week 6 -- Curiosity-16 WIP Phase I Fine-tuning script & Interact Script (Transfer learning (Two phase fine-tuning on pre-trained model))
+
+Mon - Sun - HuggingFace Documentation, HuggingFace Transformers Course, HuggingFace LLM Course, researching Curiosity-16 work, "The Annotated GPT-2", diving deeper into NLP via HuggingFace courses and other resources, continued rewrite.
+
+
+
+---
+
+--- Curiosity-16 WIP Scripts for Phase I Fine-tuning Script ---
+-- The Deliverable of the UC EEP For Summer 2025 for Week 6 is a (further) rewritten WIP script for Curiosity-16 LLM (PyTorch-based LLM utilizing GPT-2 that was built on beyond Curiosity-14 from EEP Summer 2024 Research Session)
+
+
+--- Trouble I ran into:
+--- Preprocess function needed a rewrite, was not working with new datasets. Were not streamlined or uniform.
+--- Setting sizes for Phase I datasets, while running, the dataset sizes would balloon and the process would stop.
+
+
+--- Additional Context:
+--- This took 18 hours to run.
+
+
+--- What's Next:
+--- Finalizing Interact, Fine-tuning scripts (Phase I and Phase II) for Transfer Learning. (Curiosity-16), finding seven more datasets for Curiosity-16 Phase I fine-tune script.
