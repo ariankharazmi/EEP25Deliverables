@@ -1,7 +1,7 @@
 # Curiosity-16.2025.08.07 README.MD - Author: Arian Kharazmi - License: Apache 2.0
 
 ## Model Summary
-Parameters: 404M Parameters  
+Parameters: 406.29M Parameters  
 Base: GPT-2 Medium (Decoder)  
 Tokenizer: AutoTokenizer  
 Training: 2-Phase Full SFT  
@@ -48,12 +48,7 @@ Do not rely on Curiosity-16 for factual decisions without verification.
 Curiosity-16 serves as culmination of the Summer 2025 EEP Research co-op's findings and deliverables.
 
 ## Citation
-@software{Kharazmi_Curiosity-16-2025,
-  author = {Kharazmi, Arian},
-  title = {Curiosity-16: A Small Research Model (GPT-2 Medium Fine-tune)},
-  year = {2025},
-  url = {https://huggingface.co/ariankharazmi/Curiosity-16}
-}
+@Coming Soon
 
 ## Acknowledgements
 Thank you to the University of Cincinnati for allowing me to work on AI-focused Research, this has been an incredible opportunity for me. Thank you to my Co-op Advisor, Kenny Pope, and my EEP Mentor, Josh Anness, for their continued support and guidance. Thanks to the Hugging Face community and the maintainers of the datasets listed above.
